@@ -1,0 +1,5 @@
+°²×°
+/admin/index.php?lang=cn&n=shenhenews&c=install&a=dosql
+
+Ð¶ÔØ
+/admin/index.php?lang=cn&n=shenhenews&c=uninstall&a=dodel

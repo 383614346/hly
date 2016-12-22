@@ -1,0 +1,5 @@
+��װ
+/admin/index.php?lang=cn&n=dutytable&c=install&a=dosql
+
+ɾ��
+/admin/index.php?lang=cn&n=dutytable&c=uninstall&a=dodel

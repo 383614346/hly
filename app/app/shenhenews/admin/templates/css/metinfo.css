@@ -1,0 +1,25 @@
+table.dataTable.display tbody tr.list_1{ background-color: #fbfbfb; }
+table.dataTable.display tbody tr.list_2{ background-color: #eee; }
+table.dataTable.display tbody tr.list_3{ background-color: #eee; }
+
+table.dataTable.display tbody tr.list_1 input.listname{ width:90%;}
+
+table.dataTable.display tbody tr.list_2 span.bigimg{ float:left; position:relative; top:6px; margin-right:6px; background:url(../images/column.gif) no-repeat left top; width:13px; height:21px; }
+table.dataTable.display tbody tr.list_2 input.listname{ width:78%;}
+
+table.dataTable.display tbody tr.list_3 span.bigimg{ float:left; position:relative; top:6px; margin-right:6px; background:url(../images/column.gif) no-repeat left top; width:29px; height:21px; }
+table.dataTable.display tbody tr.list_3 input.listname{ width:70%;}
+
+table.dataTable.display tr.newlist{ background:#fff8f8!important;}
+table.dataTable.display tr.newlist a{ color:#f00;}
+table.dataTable.display tr i.fa-caret-right{ color:#444; font-size:1.4em; cursor:pointer; position:relative; top:2px; }
+table.dataTable.display tr i.ipm_on{ transform:rotate(90deg); -webkit-animation:movebox 200ms 0s 1; }
+table.dataTable.display tr i.ipm_out{ transform:rotate(0deg); -webkit-animation:outbox 200ms 0s 1; }
+@-webkit-keyframes movebox{
+	0% { transform:rotate(0deg); }
+	100% { transform:rotate(90deg); } 
+}
+@-webkit-keyframes outbox{
+	0% { transform:rotate(90deg); }
+	100% { transform:rotate(0deg); } 
+}

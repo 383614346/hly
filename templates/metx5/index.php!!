@@ -1,0 +1,763 @@
+<!--<?php
+require_once template('head');
+echo <<<EOT
+-->
+
+
+
+
+
+
+<div class="wrapper transition1 clx">
+   <div class="search_fr clx">
+     <div class="fl div_h3_title"><i></i><h3>创建学习型队伍</h3></div>
+    <div class="news_ul_li fl">
+      <ul>
+         <li><a href="">全面提高干部队伍的整体素质全面提高干部队伍的整体素质全面提高…</a></li>
+      </ul>
+    </div>
+    
+    <div class="clx fr div_form">
+    <span class="inner-search">站内搜索：</span>
+    	<form action="">
+    		
+    		<input type="text" placeholder="请输入要搜索的标题..."/>
+    		<button type="submit" form="nameform" value="Submit">提交</button>
+    	</form>
+    	
+    </div>
+    
+    
+   </div>
+
+</div>
+
+
+
+
+
+<div class="wrapper transition2 clx">
+ <div class="left_area clx">
+     <div class="clx">
+       <div class="left_flash clx">
+          <img src="{$img_url}fp.jpg" alt="">
+          <h3>市安监局召开生产安全事故应急演练项目启动专题会</h3>
+       </div>
+       <div class="text_info clx">
+         <div class="text_info_1 clx">
+            <h3>重要发文</h3>
+            <ul>
+                <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li>
+    <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li> <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li> <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li>
+
+            </ul>
+         </div>
+          <div class="text_info_1 clx">
+            <h3>重要发文</h3>
+            <ul class="clx">
+                        <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li>
+    <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li> <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li> <li class="clx"><a href="">某某某某某某某某某某某某某...</a><span>(2016-08-18)</span></li>
+            </ul>
+         </div>
+       </div>
+     </div>
+
+<div class="left_area_no2 clx">
+ <img src="{$img_url}dd.jpg" alt="" class="img_max_show">
+</div>
+
+
+<div class="area_4colum_block clx">
+
+
+   <div class="area_4colum_block_1 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_1">
+        <ul>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+        </ul>
+      </div>
+      <!-- content_4colum_block_1 -->
+   </div>
+   <!-- area_4colum_block_1 -->
+
+
+
+   <div class="area_4colum_block_1 m_m2">
+      <div class="area_4colum_block1_title clx">
+        <h3>总队动态</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_1">
+        <ul>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+        </ul>
+      </div>
+      <!-- content_4colum_block_1 -->
+   </div>
+   <!-- area_4colum_block_1 -->
+
+
+
+      <div class="area_4colum_block_1 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>支队动态</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_1">
+        <ul>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+        </ul>
+      </div>
+      <!-- content_4colum_block_1 -->
+   </div>
+   <!-- area_4colum_block_1 -->
+
+
+      <div class="area_4colum_block_1 m_m2">
+      <div class="area_4colum_block1_title clx">
+        <h3>一线传真</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_1">
+        <ul>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+<li class="clx">
+<a href="">某某某某某某某某某某某某...</a><span>03-26</span>
+</li>
+        </ul>
+      </div>
+      <!-- content_4colum_block_1 -->
+   </div>
+   <!-- area_4colum_block_1 -->
+
+
+
+
+
+</div>
+<!-- area_4colum_block -->
+
+
+<script type="text/javascript" src="{$img_url}js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="{$img_url}js/jquery.bxslider.js"></script>
+
+<div class="clx" style="padding:0 40px;">
+    <div class="slider4">
+<div class="slide"><img src="{$img_url}ss.jpg"></div>
+<div class="slide"><img src="{$img_url}ss.jpg"></div>
+<div class="slide"><img src="{$img_url}ss.jpg"></div>
+<div class="slide"><img src="{$img_url}ss.jpg"></div>
+<div class="slide"><img src="{$img_url}ss.jpg"></div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slider4').bxSlider({
+            slideWidth: 200,
+            minSlides: 4,
+            maxSlides: 4,
+      moveSlides: 1,
+      startSlide: 1,
+            slideMargin: 10
+          });
+        });
+    </script>
+
+</div>
+
+
+
+ </div>
+ <!-- left_area -->
+
+
+
+<!--
+EOT;
+require_once template('right_area');
+echo <<<EOT
+-->
+
+							
+ 
+ <!-- right_area -->
+</div>
+
+
+<div class="wrapper clx transition3">
+<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('9','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('10','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('11','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('12','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('13','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+	
+	
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('14','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('15','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->
+	
+	
+	<div class="area_4colum_block_16 m_m1">
+      <div class="area_4colum_block1_title clx">
+        <h3>交警内刊</h3><a href="">MORE<i></i></a>
+      </div> 
+      <div class="clx content_4colum_block_ff">
+        <ul>
+<!--
+EOT;
+$metlist_array=methtml_getarray('16','','','','5');//通过数组标签获取信息数组
+foreach($metlist_array as $key=>$val){//使用PHP循环语句foreach来读取数组中的信息
+echo <<<EOT
+-->
+<li class="clx">
+<a href="$val[url]" target="_blank">$val[title]...</a><span>$val[updatetime]</span>
+</li>
+<!--
+EOT;
+}//上面的$val[status]为该信息的状态图标：置顶/热门/最新（如果该信息有的话就会显示图标）
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+   </div>
+	<!-- area_4colum_block_16 -->	
+	
+</div>
+
+
+<div class="left_area_no2 clx">
+ <img src="{$img_url}dd.jpg" alt="" class="img_max_show">
+</div>
+
+
+
+<div class="wrapper count clx">
+
+<div class="fl col-50">
+
+<div class="data_info">总队处室信息数据统计</div>
+
+<div class="side_bar_80">
+
+<div class="rang_info">处室信息发布排行统计</div>
+<div style="    overflow-y: scroll;
+height: 216px;">
+<table id="tfhover" class="tftable" border="1">
+
+<tr>
+<th>排序</th>
+<th>处室</th>
+<th>上月采用</th>
+<th>本月投稿</th>
+<th>本月采用</th>
+<th>总量</th>
+</tr>
+
+<tr>
+<td>2</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6556</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>2</td>
+<td>5453</td>
+<td>34</td>
+<td>4335</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>2222</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</div>
+
+</table>
+</div>
+</div><!--side_bar_80-->
+
+
+
+</div><!--col-50-->
+
+
+
+<div class="fr col-50">
+
+<div class="data_info">总队处室信息数据统计</div>
+
+<div class="side_bar_80">
+
+<div class="rang_info">处室信息发布排行统计</div>
+<div style="    overflow-y: scroll;
+height: 216px;">
+<table id="tfhover2" class="tftable" border="1">
+
+<tr>
+<th>排序</th>
+<th>处室</th>
+<th>上月采用</th>
+<th>本月投稿</th>
+<th>本月采用</th>
+<th>总量</th>
+</tr>
+
+<tr>
+<td>2</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6556</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>2</td>
+<td>5453</td>
+<td>34</td>
+<td>4335</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>2222</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>2</td>
+<td>553</td>
+<td>34</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</div>
+
+</table>
+</div>
+</div><!--side_bar_80-->
+
+
+
+</div><!--col-50-->
+
+
+
+</div>
+
+
+
+
+<style>
+#last-flash .bx-controls-direction{display:none;}
+.gunimp_content li{list-style:none}
+</style>
+
+<div class="wrapper clx" id="last-flash">
+	<div class="clx gunimp_title">
+<h3 class="fl gundong"></h3>
+<a href="" class="fr clx">MORE>></a>
+ </div>
+ <div class="clx gunimp_content">
+ 	 <div class="clx slider24">
+ 	 	<div class="slide">
+ 	     <a href=""><img src="{$img_url}dfg.jpg" alt="" class="img_max_show"></a>	
+ 	 </div>
+ 	  	 	<div class="slide">
+ 	     <a href=""><img src="{$img_url}dfg.jpg" alt="" class="img_max_show"></a>	
+ 	 </div>
+ 	 
+ 	  	 	<div class="slide">
+ 	     <a href=""><img src="{$img_url}dfg.jpg" alt="" class="img_max_show"></a>	
+ 	 </div>
+ 	 
+ 	  	 	<div class="slide">
+ 	     <a href=""><img src="{$img_url}dfg.jpg" alt="" class="img_max_show"></a>	
+ 	 </div>
+ 	 </div>
+ </div>
+</div>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.slider24').bxSlider({
+             slideWidth: 223,
+             auto: true,
+
+            minSlides: 4,
+            maxSlides: 4,
+      moveSlides: 1,
+      startSlide: 1,
+            slideMargin: 20
+          });
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+EOT;
+require_once template('foot');
+?>

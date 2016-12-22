@@ -1,0 +1,387 @@
+<!--<?php
+$methtml_head  = metlabel_html5();//基于Html5
+$topnav        = metlable_lang('<li class="line">|</li>',1,0);//右上角功能导航（间隔代码,文字链接或图标链接,是否获取语言列表）
+echo <<<EOT
+-->
+{$methtml_head}
+<body>
+<link href="{$img_url}css/hb.css" rel="stylesheet">
+	
+<div class="head_img"><img src="{$img_url}head_img.jpg" alt=""></div>
+
+<section id="top" class="clx">
+
+<div class="clx nav_select">
+<div class="clx wrapper">
+<ul class="clx">
+<!--
+EOT;
+$ind = '';
+if($classnow == 10001){
+  $ind='10001';
+}else{
+  $ind='';
+}
+echo <<<EOT
+-->
+<li class="index{$ind}">
+<a href="{$index_url}" title="{$lang_home}" class=" nv_aaa">{$lang_home}</a>
+</li>
+
+
+
+
+<!--
+EOT;
+foreach($nav_list as $key=>$val){
+$active='';
+$nowid=$val[id];  
+if($classnow == $nowid ){
+$active='active';  
+}
+else{
+  $active='';
+}
+echo <<<EOT
+-->
+<li class="{$active}">
+<a href="{$val[url]}" title="{$val[name]}" >{$val[name]}</a>
+</li>
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+</ul>
+</div>
+</div>
+
+
+
+<style>
+.nav_select li:hover .nav-down-menu{}
+.navigation-down {
+    width: 100%;
+    z-index: 1;
+}
+.nav-down-menu {
+	
+    width: 100%;
+    margin: 0;
+    position: absolute;
+
+    top: 256px;
+    z-index: 2;
+}
+.navigation-down-inner {
+    margin: auto;
+    position: relative;
+}
+
+.navcss{
+  padding:8px 0;
+	border:1px solid #ddd;
+	    width: 1000px;
+    margin: 0 auto;
+    background: #f1f9fd;
+    line-height: 45px;
+    color: #ffffff;
+    font-family: "微软雅黑", "宋体";
+    text-align: left;
+    font-size: 14px;
+ box-sizing: border-box;
+}
+
+.navcss ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navcss ul li {
+    list-style-type: none;
+        text-align: center;
+
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin:0 8px;
+
+    display: block;
+}
+.navcss ul li a {
+    color: #000;
+    display: block;
+    font-size:14px;
+    padding: 0 12px;
+}
+.demo12 {
+    border: 10px solid transparent;
+    border-left-color: #f00;
+    width: 0;
+    height: 0;
+}
+
+
+.Toolbar2 {
+
+
+    height: 50px;
+    clear: both;
+}
+.Toolbar2 .CentreBox {
+    height: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.Toolbar2 .CentreBox .Menu {
+border: 1px solid #ddd;
+    position: relative;
+    overflow: hidden;
+    background: #f1f9fd;
+    height: 50px;
+    width: 1000px;
+    left: 0px;
+    float: left;
+}
+.Toolbar2 .CentreBox .Menu ul {
+    list-style-type: none;
+    height: 50px;
+    position: absolute;
+}
+.Toolbar2 .CentreBox .Menu ul li {
+    float: left;
+    height: 50px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 50px;
+}
+.Toolbar2 .CentreBox .Menu ul li a {
+    color: #434343;
+    font-size: 14px;
+}
+.Hide {
+display: none;
+}
+.nav_select ul .Select{
+background:#2f72bb;
+}
+
+/*
+<script>
+ $("#top .nav_select .wrapper ul li").mouseover(function(){
+ 	$(this).addClass("Select");
+ 	$(this).find(".Menu").show();
+ }).
+</script>*/
+
+</style>
+<script type="text/javascript" src="{$img_url}js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="{$img_url}js/Article.js"></script>
+
+ <div class="Toolbar2">
+    <div class="CentreBox">
+    																	  <div class="Menu Hide">
+
+																  </div>
+																  
+																  <div class="Menu Hide">
+																<ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[1][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+																</ul>
+																  </div>
+      <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[2][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[3][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[4][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[5][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>
+      
+      
+      
+      
+     <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[6][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>      
+      
+
+     <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[7][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>    
+     
+     
+     <div class="Menu Hide">
+        <ul>
+<!--
+EOT;
+foreach($nav_list2[$class_index[8][id]] as $key=>$val){
+echo <<<EOT
+-->    
+
+<li><a href="{$val[url]}" target="_blank">{$val[name]}</a></li>
+
+<!--
+EOT;
+}
+echo <<<EOT
+-->
+        </ul>
+      </div>     
+    
+    </div>
+  </div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<!--<section class="navigation-down clx">
+<div class="nav-down-menu clx">
+<div class="navigation-down-inner clx">
+<div class="navcss clx">
+<ul>
+<li>
+<a href="">领导之窗</a>
+</li>
+<li>
+<a href="">领导之窗</a>
+</li>
+
+<li>
+<a href="">领导之窗</a>
+</li>
+<li>
+<a href="">领导之窗</a>
+</li><li>
+<a href="">领导之窗</a>
+</li><li>
+<a href="">领导之窗</a>
+</li><li>
+<a href="">领导之窗</a>
+</li><li>
+<a href="">领导之窗</a>
+</li><li>
+<a href="">领导之窗</a>
+</li><li>
+<a href="">领导之窗</a>
+</li>
+</ul> 
+</div>
+</div>
+</div>
+</section>-->
+
+
+ 
+
+<!--
+EOT;
+?>

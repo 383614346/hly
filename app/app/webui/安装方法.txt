@@ -1,0 +1,5 @@
+°²×°
+/admin/index.php?lang=cn&n=webui&c=install&a=dosql
+
+É¾³ý
+/admin/index.php?lang=cn&n=webui&c=uninstall&a=dodel

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div> <script src="http://www.w3school.com.cn/jquery/jquery-1.11.1.min.js"></script>
+<script>
+    $(function () {
+        $("#send").click(function(){
+            $.get("/sign/index.php",{
+                newsid:'36'
+            },function(data,textStatus){
+                $("#resText").html(data);
+            });
+        })
+    })
+
+</script>
+
+            <input type="submit" value="开始签收" id="send" style="color: #0606fe;margin-bottom: 10px;" >
+
+    <div style="background-color: #d3e9ff;width: 100%;height: 31px;font-size: 14px;line-height: 31px;padding-left: 8px" >开始签收开始签收开始签收开始签收</div>
+    <div style="background-color: #DDDDFF;width:100%;height:100%;font-size: 14px;line-height: 100%;padding: 8px 8px;margin-top: 8px;display: block;float: none">
+        <p>签到人:</p>
+        <p id="resText">签到人;签到人;签到人;签到人;签到人;签到人;签到人;签到人;</p></div>
+
+</div>
+</body>
+</html>
