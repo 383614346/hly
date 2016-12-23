@@ -185,6 +185,7 @@ class article_admin extends admin {
 			$val['state'].= $val['top_ok']?'<span class="label label-success" style="margin-left:8px;">置顶</span>':'';
 			$list = array();
 			$list[] = "<input name=\"id\" type=\"checkbox\" value=\"{$val[id]}\">";
+			$list[] = $val['id'];
 			$list[] = "<div class=\"ui-table-a\"><a title=\"{$val['title']}\" href=\"{$val['url']}\" target=\"_blank\">{$val['title']}</a></div>";
 			$list[] = $val['hits'];
 			$list[] = $val['updatetime'];

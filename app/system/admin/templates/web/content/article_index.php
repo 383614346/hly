@@ -37,6 +37,7 @@ echo <<<EOT
 		<thead>
 			<tr>
 				<th width="20" data-table-columnclass="met-center"><input name="id" data-table-chckall="id" type="checkbox" value="" /></th>
+	            <th width="20" >编号</th>
 				<th width="300">
 					标题
 				</th>
@@ -64,6 +65,7 @@ echo <<<EOT
 		<tfoot>
 			<tr>
 				<th><input name="id" type="checkbox" data-table-chckall="id" value=""></th>
+	            
 				<th colspan="6" class="formsubmit" style="text-align:left!important;">	
 <!--
 EOT;

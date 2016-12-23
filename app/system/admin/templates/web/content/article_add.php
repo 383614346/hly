@@ -43,9 +43,9 @@ echo <<<EOT
 			<dt><em class="required">*</em>所属模板</dt>
 			<dd class="ftype_select-linkage">
 			     <div class="fbox">
-					<label><input type="radio" id="show_templet_1" name="show_templet" value="1" data-checked="{$list[show_templet]}" /> 文章</label>&nbsp;&nbsp; 
-					<label><input type="radio" id="show_templet_2" name="show_templet" value="2" data-checked="{$list[show_templet]}" data-showhide="show_templet_2" /> 红头文件</label>&nbsp;&nbsp;
-					<label><input type="radio" id="show_templet_3" name="show_templet" value="3" data-checked="{$list[show_templet]}" data-showhide="show_templet_3" /> 刊列</label>
+					<label><input type="radio" id="show_templet_1" name="show_templet" value="1" data-checked="{$list[show_templet]}" /> 内容页</label>&nbsp;&nbsp; 
+					<label><input type="radio" id="show_templet_2" name="show_templet" value="2" data-checked="{$list[show_templet]}" data-showhide="show_templet_2" /> 通知</label>&nbsp;&nbsp;
+					<label><input type="radio" id="show_templet_3" name="show_templet" value="3" data-checked="{$list[show_templet]}" data-showhide="show_templet_3" /> 内刊</label>
 				</div>
 			</dd>
 		</dl>

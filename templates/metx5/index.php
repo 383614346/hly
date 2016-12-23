@@ -1355,27 +1355,26 @@ EOT;
 //链接数据库
 // $conn = mysql_connect("localhost","root","root");
 // mysql_select_db('shaanxijj',$conn);
-$conn = mysql_connect("localhost","police","police");
+$conn = mysql_connect("localhost","root","root");
 //选择要操作的数据库
-mysql_select_db('police',$conn);
+mysql_select_db('shaanxijj',$conn);
 //设置操作数据库编码格式
 mysql_query("set names utf8");
 $re = mysql_query("SELECT id FROM pol_news where is_tc = 1");
+$i = 1;
 while($val = mysql_fetch_array($re)){
 echo <<<EOT
 -->
-window.open('{$_M[url][site]}index/shownews.php?lang=cn&id={$val[id]}');
+//alert(1);
+window.open('{$_M[url][site]}index/shownews.php?lang=cn&id={$val[id]}','target{$i}','param{$i}');
+    
 <!--
 EOT;
-
+$i++;
 }	
 mysql_close();
 echo <<<EOT
 -->	 
-//window.open('{$_M[url][site]}index/shownews.php?lang=cn&id={$val[id]}', 'newwindow', 'width=800,height=500,resizable=0,scrollbars=auto'); // width=500,height=500为窗口长和宽 is_tc
-//var popup{$val[id]} = window.open('', 'popupnav', 'width=800,height=500,resizable=0,scrollbars=auto'); // width=500,height=500为窗口长和宽 is_tc
-//popup{$val[id]}.opener = self;  
-//popup{$val[id]}.location.href = '{$_M[url][site]}index/shownews.php?lang=cn&id={$val[id]}';
 
 </script>
 
