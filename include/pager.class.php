@@ -172,6 +172,7 @@ if($this->pages!=0){
          for($i=1;$i<=$this->pages;$i++){
             if($i==$this->_cur_page){
 				$text.="
+				    <span class='PageText'>总共". $this->_total ."条</span>
 			    <span class='PageText'>$lang_PageGo</span>
 			    <input type='text' id='metPageT' data-pageurl='".$url."|".$exc."|".$this->pages."' value='".$i."' />
 			    <input type='button' id='metPageB' value='".$lang_Page."' />";	
